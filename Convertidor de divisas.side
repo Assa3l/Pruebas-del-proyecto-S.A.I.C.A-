@@ -1,0 +1,1330 @@
+{
+  "id": "41e71f3c-ddcb-4d8a-8809-2cb9d88dbc6b",
+  "version": "2.0",
+  "name": "Convertidor de divisas",
+  "url": "https://convertidor.42web.io/",
+  "tests": [{
+    "id": "1c578418-f6a0-4e0b-849d-dd74588bcb66",
+    "name": "CDS 1",
+    "commands": [{
+      "id": "58849d1c-9d33-4a13-a0db-10474594414f",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "48d84429-a867-41e3-9633-c4365406d29e",
+      "comment": "",
+      "command": "click",
+      "target": "name=cantidad",
+      "targets": [
+        ["name=cantidad", "name"],
+        ["css=input", "css:finder"],
+        ["xpath=//input[@name='cantidad']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "de32131f-a4d6-4c66-b4a7-17d91a149eb8",
+      "comment": "",
+      "command": "type",
+      "target": "name=cantidad",
+      "targets": [
+        ["name=cantidad", "name"],
+        ["css=input", "css:finder"],
+        ["xpath=//input[@name='cantidad']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "100"
+    }, {
+      "id": "d3120efc-214d-48de-a57e-facdd9c9a78c",
+      "comment": "",
+      "command": "click",
+      "target": "name=origen",
+      "targets": [
+        ["name=origen", "name"],
+        ["css=select:nth-child(2)", "css:finder"],
+        ["xpath=//select[@name='origen']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario']/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e2492f6d-6406-4387-a7b1-e96913475da8",
+      "comment": "",
+      "command": "select",
+      "target": "name=origen",
+      "targets": [
+        ["name=origen", "name"],
+        ["css=select:nth-child(2)", "css:finder"],
+        ["xpath=//select[@name='origen']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario']/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": "peso mexicano (MXN)"
+    }, {
+      "id": "84c42c5f-4772-46e3-90e2-f8981b6d6981",
+      "comment": "",
+      "command": "click",
+      "target": "name=destino",
+      "targets": [
+        ["name=destino", "name"],
+        ["css=select:nth-child(1)", "css:finder"],
+        ["xpath=//select[@name='destino']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario']/div/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef1a1ba6-ca67-443e-b3ad-311d9d381e40",
+      "comment": "",
+      "command": "select",
+      "target": "name=destino",
+      "targets": [
+        ["name=destino", "name"],
+        ["css=select:nth-child(1)", "css:finder"],
+        ["xpath=//select[@name='destino']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario']/div/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div/select", "xpath:position"]
+      ],
+      "value": "dólar estadounidense (USD)"
+    }, {
+      "id": "7433940a-b02d-4b58-9769-87ec6b446f43",
+      "comment": "",
+      "command": "click",
+      "target": "css=button:nth-child(2)",
+      "targets": [
+        ["css=button:nth-child(2)", "css:finder"],
+        ["xpath=//form[@id='formulario']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Convertir')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "777ba7d6-2afa-491f-9231-b9511de85429",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3449991e-229b-4be1-8107-ded6c5cb6117",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(1) > button",
+      "targets": [
+        ["css=li:nth-child(1) > button", "css:finder"],
+        ["xpath=//ul[@id='lista']/li/button", "xpath:idRelative"],
+        ["xpath=//li/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Eliminar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "9873d862-4d00-435c-b18e-dbaf200a79d6",
+    "name": "CDS 2",
+    "commands": [{
+      "id": "eba16b73-7385-4fc9-b084-31ef55b8cfaf",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "263a4fa5-d1fd-436e-9737-47bca1b2e474",
+      "comment": "",
+      "command": "click",
+      "target": "name=cantidad",
+      "targets": [
+        ["name=cantidad", "name"],
+        ["css=input", "css:finder"],
+        ["xpath=//input[@name='cantidad']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "75fdeef0-62ee-449c-81f0-5364659d1e1a",
+      "comment": "",
+      "command": "type",
+      "target": "name=cantidad",
+      "targets": [
+        ["name=cantidad", "name"],
+        ["css=input", "css:finder"],
+        ["xpath=//input[@name='cantidad']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "100.10"
+    }, {
+      "id": "4192141f-0cec-4bc9-b02f-9603c92ca740",
+      "comment": "",
+      "command": "click",
+      "target": "name=origen",
+      "targets": [
+        ["name=origen", "name"],
+        ["css=select:nth-child(2)", "css:finder"],
+        ["xpath=//select[@name='origen']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario']/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "95409c3f-49bc-4f7f-ba90-45695dd701f5",
+      "comment": "",
+      "command": "select",
+      "target": "name=origen",
+      "targets": [
+        ["name=origen", "name"],
+        ["css=select:nth-child(2)", "css:finder"],
+        ["xpath=//select[@name='origen']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario']/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": "peso mexicano (MXN)"
+    }, {
+      "id": "6c582f49-9d6e-4123-a05e-a1749beaf008",
+      "comment": "",
+      "command": "click",
+      "target": "name=destino",
+      "targets": [
+        ["name=destino", "name"],
+        ["css=select:nth-child(1)", "css:finder"],
+        ["xpath=//select[@name='destino']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario']/div/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fcb90b04-2e9e-4e85-a90d-52305c5d336e",
+      "comment": "",
+      "command": "select",
+      "target": "name=destino",
+      "targets": [
+        ["name=destino", "name"],
+        ["css=select:nth-child(1)", "css:finder"],
+        ["xpath=//select[@name='destino']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario']/div/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div/select", "xpath:position"]
+      ],
+      "value": "dólar estadounidense (USD)"
+    }, {
+      "id": "8402a139-0c5d-416f-a8d3-d14a80b33310",
+      "comment": "",
+      "command": "click",
+      "target": "css=button:nth-child(2)",
+      "targets": [
+        ["css=button:nth-child(2)", "css:finder"],
+        ["xpath=//form[@id='formulario']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Convertir')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "69742238-0323-4879-af75-aae36fafcbbe",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2907a8c1-372e-49ce-9e84-0ab9f94f2eeb",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(1) > button",
+      "targets": [
+        ["css=li:nth-child(1) > button", "css:finder"],
+        ["xpath=//ul[@id='lista']/li/button", "xpath:idRelative"],
+        ["xpath=//li/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Eliminar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "d5b55b80-0b25-4c01-8e71-c6b810a8e189",
+    "name": "CDS 3",
+    "commands": [{
+      "id": "bd9163ae-cd39-4e72-aa32-bc50605bfaef",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cc1af8e5-1f27-4283-8404-9b5904b165fe",
+      "comment": "",
+      "command": "click",
+      "target": "name=cantidad",
+      "targets": [
+        ["name=cantidad", "name"],
+        ["css=input", "css:finder"],
+        ["xpath=//input[@name='cantidad']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "92d4a86e-6426-46ab-98e9-e662d0a40108",
+      "comment": "",
+      "command": "type",
+      "target": "name=cantidad",
+      "targets": [
+        ["name=cantidad", "name"],
+        ["css=input", "css:finder"],
+        ["xpath=//input[@name='cantidad']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e3d6f74-cfa8-4247-81ad-6e9fcdf99670",
+      "comment": "",
+      "command": "click",
+      "target": "name=origen",
+      "targets": [
+        ["name=origen", "name"],
+        ["css=select:nth-child(2)", "css:finder"],
+        ["xpath=//select[@name='origen']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario']/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4d03b6b-b441-434b-a013-2b1864f47082",
+      "comment": "",
+      "command": "select",
+      "target": "name=origen",
+      "targets": [
+        ["name=origen", "name"],
+        ["css=select:nth-child(2)", "css:finder"],
+        ["xpath=//select[@name='origen']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario']/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": "peso mexicano (MXN)"
+    }, {
+      "id": "0551a842-c86e-4681-89e9-5201c30e12e5",
+      "comment": "",
+      "command": "click",
+      "target": "name=destino",
+      "targets": [
+        ["name=destino", "name"],
+        ["css=select:nth-child(1)", "css:finder"],
+        ["xpath=//select[@name='destino']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario']/div/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4d9953e-d493-46e4-80b1-5c467c723b7a",
+      "comment": "",
+      "command": "select",
+      "target": "name=destino",
+      "targets": [
+        ["name=destino", "name"],
+        ["css=select:nth-child(1)", "css:finder"],
+        ["xpath=//select[@name='destino']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario']/div/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div/select", "xpath:position"]
+      ],
+      "value": "dólar estadounidense (USD)"
+    }, {
+      "id": "b5ef0807-6299-48c5-8913-4774885b88cf",
+      "comment": "",
+      "command": "click",
+      "target": "css=button:nth-child(2)",
+      "targets": [
+        ["css=button:nth-child(2)", "css:finder"],
+        ["xpath=//form[@id='formulario']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Convertir')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "31a09f32-804d-4ef4-a8b4-bb4e586d0475",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8e49d567-83d0-4d71-9e55-aa52ef0a1d12",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(1) > button",
+      "targets": [
+        ["css=li:nth-child(1) > button", "css:finder"],
+        ["xpath=//ul[@id='lista']/li/button", "xpath:idRelative"],
+        ["xpath=//li/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Eliminar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "64972abc-9ccd-480d-bac2-53b6b23b9c5a",
+    "name": "CDS 4",
+    "commands": [{
+      "id": "c315db86-88af-4418-99c8-d6874b0575f7",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "30ebf942-b244-4891-9184-f55f1afac61d",
+      "comment": "",
+      "command": "click",
+      "target": "name=cantidad",
+      "targets": [
+        ["name=cantidad", "name"],
+        ["css=input", "css:finder"],
+        ["xpath=//input[@name='cantidad']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bdac5aad-e165-4bd1-9765-db7a8bfceb96",
+      "comment": "",
+      "command": "type",
+      "target": "name=cantidad",
+      "targets": [
+        ["name=cantidad", "name"],
+        ["css=input", "css:finder"],
+        ["xpath=//input[@name='cantidad']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "cien"
+    }, {
+      "id": "4ae62691-69ae-4473-a7a1-1d6d1c168e53",
+      "comment": "",
+      "command": "click",
+      "target": "name=origen",
+      "targets": [
+        ["name=origen", "name"],
+        ["css=select:nth-child(2)", "css:finder"],
+        ["xpath=//select[@name='origen']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario']/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3e58d24-0a57-4aed-abc9-7b9c4da5a97d",
+      "comment": "",
+      "command": "select",
+      "target": "name=origen",
+      "targets": [
+        ["name=origen", "name"],
+        ["css=select:nth-child(2)", "css:finder"],
+        ["xpath=//select[@name='origen']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario']/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": "peso mexicano (MXN)"
+    }, {
+      "id": "fdd885c1-492d-453c-b535-747149821053",
+      "comment": "",
+      "command": "click",
+      "target": "name=destino",
+      "targets": [
+        ["name=destino", "name"],
+        ["css=select:nth-child(1)", "css:finder"],
+        ["xpath=//select[@name='destino']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario']/div/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "69efd9ba-b834-4a41-a0c6-b3de4be6a883",
+      "comment": "",
+      "command": "select",
+      "target": "name=destino",
+      "targets": [
+        ["name=destino", "name"],
+        ["css=select:nth-child(1)", "css:finder"],
+        ["xpath=//select[@name='destino']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario']/div/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div/select", "xpath:position"]
+      ],
+      "value": "dólar estadounidense (USD)"
+    }, {
+      "id": "f4611c1a-67aa-4b2f-9b41-58ec55dfd483",
+      "comment": "",
+      "command": "click",
+      "target": "css=button:nth-child(2)",
+      "targets": [
+        ["css=button:nth-child(2)", "css:finder"],
+        ["xpath=//form[@id='formulario']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Convertir')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "acfb448c-8228-4ece-a6d0-1979f1421ee3",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e64f101d-7954-4c17-940f-e44b3a95f501",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(1) > button",
+      "targets": [
+        ["css=li:nth-child(1) > button", "css:finder"],
+        ["xpath=//ul[@id='lista']/li/button", "xpath:idRelative"],
+        ["xpath=//li/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Eliminar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "d44e0e59-9873-4f1d-89f3-363c17759e83",
+    "name": "CDS 5",
+    "commands": [{
+      "id": "a7004c7e-b67c-4df7-82cc-bc7399c5b5c8",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "298d98d3-e21a-4722-a0c3-48f16ce47ad0",
+      "comment": "",
+      "command": "click",
+      "target": "name=cantidad",
+      "targets": [
+        ["name=cantidad", "name"],
+        ["css=input", "css:finder"],
+        ["xpath=//input[@name='cantidad']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5da3fc8-1a2e-43b9-9c81-85fd73968cc1",
+      "comment": "",
+      "command": "type",
+      "target": "name=cantidad",
+      "targets": [
+        ["name=cantidad", "name"],
+        ["css=input", "css:finder"],
+        ["xpath=//input[@name='cantidad']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "-100"
+    }, {
+      "id": "5a0dc326-c519-4506-ae85-c899378fe731",
+      "comment": "",
+      "command": "click",
+      "target": "name=origen",
+      "targets": [
+        ["name=origen", "name"],
+        ["css=select:nth-child(2)", "css:finder"],
+        ["xpath=//select[@name='origen']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario']/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "899b709e-7e14-4c10-8eaf-fe0178accb0c",
+      "comment": "",
+      "command": "select",
+      "target": "name=origen",
+      "targets": [
+        ["name=origen", "name"],
+        ["css=select:nth-child(2)", "css:finder"],
+        ["xpath=//select[@name='origen']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario']/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": "peso mexicano (MXN)"
+    }, {
+      "id": "9a5e3d4b-552b-44c3-a1ca-8807452980fb",
+      "comment": "",
+      "command": "click",
+      "target": "name=destino",
+      "targets": [
+        ["name=destino", "name"],
+        ["css=select:nth-child(1)", "css:finder"],
+        ["xpath=//select[@name='destino']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario']/div/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "22ccb82a-70b5-44b6-af84-b0cd31f0c496",
+      "comment": "",
+      "command": "select",
+      "target": "name=destino",
+      "targets": [
+        ["name=destino", "name"],
+        ["css=select:nth-child(1)", "css:finder"],
+        ["xpath=//select[@name='destino']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario']/div/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div/select", "xpath:position"]
+      ],
+      "value": "dólar estadounidense (USD)"
+    }, {
+      "id": "ac2639ae-a214-4d23-80bb-426e49086a4b",
+      "comment": "",
+      "command": "click",
+      "target": "css=button:nth-child(2)",
+      "targets": [
+        ["css=button:nth-child(2)", "css:finder"],
+        ["xpath=//form[@id='formulario']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Convertir')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "31ecebfe-a1a6-408f-b1c1-50237e071617",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "db37573d-0921-43ba-a334-da658ff1c4e5",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(1) > button",
+      "targets": [
+        ["css=li:nth-child(1) > button", "css:finder"],
+        ["xpath=//ul[@id='lista']/li/button", "xpath:idRelative"],
+        ["xpath=//li/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Eliminar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "3fa119da-70f8-4bbc-a26e-9d877dbf81d4",
+    "name": "CDS 6",
+    "commands": [{
+      "id": "10355f2e-0681-40e1-af8d-298b49849a64",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "30194b91-8ad9-46ff-b45f-79579b18d7a1",
+      "comment": "",
+      "command": "click",
+      "target": "name=cantidad",
+      "targets": [
+        ["name=cantidad", "name"],
+        ["css=input", "css:finder"],
+        ["xpath=//input[@name='cantidad']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "914de40d-384f-4f2a-8c6e-e5af67c749b4",
+      "comment": "",
+      "command": "type",
+      "target": "name=cantidad",
+      "targets": [
+        ["name=cantidad", "name"],
+        ["css=input", "css:finder"],
+        ["xpath=//input[@name='cantidad']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "100"
+    }, {
+      "id": "c7f0e31b-7892-432e-a19c-d6c54b08613f",
+      "comment": "",
+      "command": "click",
+      "target": "name=origen",
+      "targets": [
+        ["name=origen", "name"],
+        ["css=select:nth-child(2)", "css:finder"],
+        ["xpath=//select[@name='origen']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario']/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "86d3a36a-be4a-42fa-a3aa-f7c69b49365f",
+      "comment": "",
+      "command": "select",
+      "target": "name=origen",
+      "targets": [
+        ["name=origen", "name"],
+        ["css=select:nth-child(2)", "css:finder"],
+        ["xpath=//select[@name='origen']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario']/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": "peso mexicano (MXN)"
+    }, {
+      "id": "d380413e-5e86-4082-99b0-336658acd5b5",
+      "comment": "",
+      "command": "click",
+      "target": "name=destino",
+      "targets": [
+        ["name=destino", "name"],
+        ["css=select:nth-child(1)", "css:finder"],
+        ["xpath=//select[@name='destino']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario']/div/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1178ad72-1a4c-4191-8e9c-54498da16eb4",
+      "comment": "",
+      "command": "select",
+      "target": "name=destino",
+      "targets": [
+        ["name=destino", "name"],
+        ["css=select:nth-child(1)", "css:finder"],
+        ["xpath=//select[@name='destino']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario']/div/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div/select", "xpath:position"]
+      ],
+      "value": "dólar estadounidense (USD)"
+    }, {
+      "id": "0ea88c38-fabd-4761-b698-6cf96a321f00",
+      "comment": "",
+      "command": "click",
+      "target": "css=button:nth-child(2)",
+      "targets": [
+        ["css=button:nth-child(2)", "css:finder"],
+        ["xpath=//form[@id='formulario']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Convertir')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3156706-3ec6-4396-bddd-0dad18ba12ab",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "00ab7496-7c0d-4e16-b9b3-3e218bede824",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(1) > button",
+      "targets": [
+        ["css=li:nth-child(1) > button", "css:finder"],
+        ["xpath=//ul[@id='lista']/li/button", "xpath:idRelative"],
+        ["xpath=//li/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Eliminar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "74a289c4-d9f2-4ce4-8cfb-a61e6f84c14d",
+    "name": "CDS 7",
+    "commands": [{
+      "id": "ccac2f6a-df93-4e55-81bc-9c0518ca121e",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fbeb9142-9dc7-4b49-ac15-94a5b9e3f8e5",
+      "comment": "",
+      "command": "click",
+      "target": "name=cantidad",
+      "targets": [
+        ["name=cantidad", "name"],
+        ["css=input", "css:finder"],
+        ["xpath=//input[@name='cantidad']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b06cd31d-7a8a-49ef-b494-f2562d482a06",
+      "comment": "",
+      "command": "type",
+      "target": "name=cantidad",
+      "targets": [
+        ["name=cantidad", "name"],
+        ["css=input", "css:finder"],
+        ["xpath=//input[@name='cantidad']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "100"
+    }, {
+      "id": "c1508301-a460-4306-a828-53af7016ccb3",
+      "comment": "",
+      "command": "click",
+      "target": "name=origen",
+      "targets": [
+        ["name=origen", "name"],
+        ["css=select:nth-child(2)", "css:finder"],
+        ["xpath=//select[@name='origen']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario']/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "41fc02cb-8594-4260-a022-35e48b8c421c",
+      "comment": "",
+      "command": "select",
+      "target": "name=origen",
+      "targets": [
+        ["name=origen", "name"],
+        ["css=select:nth-child(2)", "css:finder"],
+        ["xpath=//select[@name='origen']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario']/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5203b409-8833-4736-a829-3c88486c3772",
+      "comment": "",
+      "command": "click",
+      "target": "name=destino",
+      "targets": [
+        ["name=destino", "name"],
+        ["css=select:nth-child(1)", "css:finder"],
+        ["xpath=//select[@name='destino']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario']/div/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "235ee849-9a04-4634-844c-6fd66bfc9ee3",
+      "comment": "",
+      "command": "select",
+      "target": "name=destino",
+      "targets": [
+        ["name=destino", "name"],
+        ["css=select:nth-child(1)", "css:finder"],
+        ["xpath=//select[@name='destino']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario']/div/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div/select", "xpath:position"]
+      ],
+      "value": "dólar estadounidense (USD)"
+    }, {
+      "id": "f5648dfc-8184-413c-bddc-63d36433e5e0",
+      "comment": "",
+      "command": "click",
+      "target": "css=button:nth-child(2)",
+      "targets": [
+        ["css=button:nth-child(2)", "css:finder"],
+        ["xpath=//form[@id='formulario']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Convertir')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "26f34bec-0970-43f5-bda4-ea08819ccab1",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "85a9680b-2af7-4dc4-b6b1-406904966707",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(1) > button",
+      "targets": [
+        ["css=li:nth-child(1) > button", "css:finder"],
+        ["xpath=//ul[@id='lista']/li/button", "xpath:idRelative"],
+        ["xpath=//li/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Eliminar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "77fcfdc5-2831-4aa7-8fe4-16229d5ab73d",
+    "name": "CDS 8",
+    "commands": [{
+      "id": "13c5903f-8da5-47f5-b8ae-ba06a88caaa0",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1efd18c2-2f15-4e7e-886d-03407907e40a",
+      "comment": "",
+      "command": "click",
+      "target": "name=cantidad",
+      "targets": [
+        ["name=cantidad", "name"],
+        ["css=input", "css:finder"],
+        ["xpath=//input[@name='cantidad']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e1caa805-b694-4d3c-8796-d6f066f368b3",
+      "comment": "",
+      "command": "type",
+      "target": "name=cantidad",
+      "targets": [
+        ["name=cantidad", "name"],
+        ["css=input", "css:finder"],
+        ["xpath=//input[@name='cantidad']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "100"
+    }, {
+      "id": "7505c3ca-168f-4306-b641-57b1593bd73e",
+      "comment": "",
+      "command": "click",
+      "target": "name=origen",
+      "targets": [
+        ["name=origen", "name"],
+        ["css=select:nth-child(2)", "css:finder"],
+        ["xpath=//select[@name='origen']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario']/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c76c1ef-49de-4cc1-a35f-c31a266be910",
+      "comment": "",
+      "command": "select",
+      "target": "name=origen",
+      "targets": [
+        ["name=origen", "name"],
+        ["css=select:nth-child(2)", "css:finder"],
+        ["xpath=//select[@name='origen']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario']/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": "peso mexicano (MXN)"
+    }, {
+      "id": "35a591b8-c76c-4131-ba92-4354f7746ba0",
+      "comment": "",
+      "command": "click",
+      "target": "name=destino",
+      "targets": [
+        ["name=destino", "name"],
+        ["css=select:nth-child(1)", "css:finder"],
+        ["xpath=//select[@name='destino']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario']/div/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a4c68de-06c3-4e31-b5e4-1cc9903c676d",
+      "comment": "",
+      "command": "select",
+      "target": "name=destino",
+      "targets": [
+        ["name=destino", "name"],
+        ["css=select:nth-child(1)", "css:finder"],
+        ["xpath=//select[@name='destino']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario']/div/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div/select", "xpath:position"]
+      ],
+      "value": "dólar estadounidense (USD)"
+    }, {
+      "id": "3859e46f-d98d-4890-9977-ab3d9b70f657",
+      "comment": "",
+      "command": "click",
+      "target": "css=button:nth-child(2)",
+      "targets": [
+        ["css=button:nth-child(2)", "css:finder"],
+        ["xpath=//form[@id='formulario']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Convertir')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "020616e1-297a-463e-9134-0d8bf1a35d65",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "99aa2121-0d8a-4a7f-be72-897b19f89915",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(1) > button",
+      "targets": [
+        ["css=li:nth-child(1) > button", "css:finder"],
+        ["xpath=//ul[@id='lista']/li/button", "xpath:idRelative"],
+        ["xpath=//li/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Eliminar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "63e52bad-d045-445b-b377-74ea31f78028",
+    "name": "CDS 9",
+    "commands": [{
+      "id": "902ce791-a8ad-4b73-a7d5-7eee3de1ad61",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e20bb68c-ff0a-406b-83f5-58284deaf57a",
+      "comment": "",
+      "command": "click",
+      "target": "name=cantidad",
+      "targets": [
+        ["name=cantidad", "name"],
+        ["css=input", "css:finder"],
+        ["xpath=//input[@name='cantidad']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a816818f-c62b-4434-843e-ec1ccaebeb13",
+      "comment": "",
+      "command": "type",
+      "target": "name=cantidad",
+      "targets": [
+        ["name=cantidad", "name"],
+        ["css=input", "css:finder"],
+        ["xpath=//input[@name='cantidad']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "100"
+    }, {
+      "id": "f79c8be2-5d08-4e6f-82c1-8232421f674b",
+      "comment": "",
+      "command": "click",
+      "target": "name=origen",
+      "targets": [
+        ["name=origen", "name"],
+        ["css=select:nth-child(2)", "css:finder"],
+        ["xpath=//select[@name='origen']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario']/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4dc3ded4-12d5-461d-aaaa-3b5c9fa94b2b",
+      "comment": "",
+      "command": "select",
+      "target": "name=origen",
+      "targets": [
+        ["name=origen", "name"],
+        ["css=select:nth-child(2)", "css:finder"],
+        ["xpath=//select[@name='origen']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario']/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": "peso mexicano (MXN)"
+    }, {
+      "id": "44fc5519-beed-4a6c-8931-aca4d5e21bb6",
+      "comment": "",
+      "command": "click",
+      "target": "name=destino",
+      "targets": [
+        ["name=destino", "name"],
+        ["css=select:nth-child(1)", "css:finder"],
+        ["xpath=//select[@name='destino']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario']/div/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ca1bc32-b3cb-42f4-9534-f09586ff41d7",
+      "comment": "",
+      "command": "select",
+      "target": "name=destino",
+      "targets": [
+        ["name=destino", "name"],
+        ["css=select:nth-child(1)", "css:finder"],
+        ["xpath=//select[@name='destino']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario']/div/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4abd860e-3759-494f-b068-93f0d8aefcff",
+      "comment": "",
+      "command": "click",
+      "target": "css=button:nth-child(2)",
+      "targets": [
+        ["css=button:nth-child(2)", "css:finder"],
+        ["xpath=//form[@id='formulario']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Convertir')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "67faf25e-dd51-4905-9a20-cbd3b38ac605",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3cd3fe06-2ee0-4289-b393-fe55d925228c",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(1) > button",
+      "targets": [
+        ["css=li:nth-child(1) > button", "css:finder"],
+        ["xpath=//ul[@id='lista']/li/button", "xpath:idRelative"],
+        ["xpath=//li/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Eliminar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a22114fb-8ef6-4f72-8778-75305b28bf13",
+    "name": "CDS 10",
+    "commands": [{
+      "id": "ff454fbc-c260-416e-bfd2-5324515e328e",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "24b7f9f7-401b-4dc9-a6a5-8c6e79628ab3",
+      "comment": "",
+      "command": "click",
+      "target": "name=cantidad",
+      "targets": [
+        ["name=cantidad", "name"],
+        ["css=input", "css:finder"],
+        ["xpath=//input[@name='cantidad']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a513edb-b0e4-4937-a2b4-a46b0da85d51",
+      "comment": "",
+      "command": "type",
+      "target": "name=cantidad",
+      "targets": [
+        ["name=cantidad", "name"],
+        ["css=input", "css:finder"],
+        ["xpath=//input[@name='cantidad']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "100"
+    }, {
+      "id": "8aca9b1d-b1c1-4c62-b4dc-02f84b4e5013",
+      "comment": "",
+      "command": "click",
+      "target": "name=origen",
+      "targets": [
+        ["name=origen", "name"],
+        ["css=select:nth-child(2)", "css:finder"],
+        ["xpath=//select[@name='origen']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario']/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "58b9d216-dbdb-4243-8467-78b5e748fa1e",
+      "comment": "",
+      "command": "select",
+      "target": "name=origen",
+      "targets": [
+        ["name=origen", "name"],
+        ["css=select:nth-child(2)", "css:finder"],
+        ["xpath=//select[@name='origen']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario']/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": "peso mexicano (MXN)"
+    }, {
+      "id": "84b6621a-f22f-4093-ae9f-22c947b3e7b6",
+      "comment": "",
+      "command": "click",
+      "target": "name=destino",
+      "targets": [
+        ["name=destino", "name"],
+        ["css=select:nth-child(1)", "css:finder"],
+        ["xpath=//select[@name='destino']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario']/div/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "424399ea-c433-43dc-acd6-26df7059bd11",
+      "comment": "",
+      "command": "select",
+      "target": "name=destino",
+      "targets": [
+        ["name=destino", "name"],
+        ["css=select:nth-child(1)", "css:finder"],
+        ["xpath=//select[@name='destino']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario']/div/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div/select", "xpath:position"]
+      ],
+      "value": "dólar estadounidense (USD)"
+    }, {
+      "id": "c2dad643-ffef-41b0-897f-a75b17bdc98a",
+      "comment": "",
+      "command": "click",
+      "target": "css=button:nth-child(2)",
+      "targets": [
+        ["css=button:nth-child(2)", "css:finder"],
+        ["xpath=//form[@id='formulario']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Convertir')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb7cc59d-5bca-4ce9-a8bb-0f4b2ab95def",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "16b16fd6-4603-4fe5-b452-3c7944f25760",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(1) > button",
+      "targets": [
+        ["css=li:nth-child(1) > button", "css:finder"],
+        ["xpath=//ul[@id='lista']/li/button", "xpath:idRelative"],
+        ["xpath=//li/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Eliminar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "5b3ea116-332c-4d2c-a142-3f6680cec505",
+    "name": "CDS 11",
+    "commands": [{
+      "id": "2dce9fb0-fd03-48da-adb8-7ba742f57919",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f2985d62-918c-4be2-ba46-aaab31837cb9",
+      "comment": "",
+      "command": "click",
+      "target": "name=cantidad",
+      "targets": [
+        ["name=cantidad", "name"],
+        ["css=input", "css:finder"],
+        ["xpath=//input[@name='cantidad']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e8d3d5da-caa9-4cbc-8f6a-189e4e145ed8",
+      "comment": "",
+      "command": "type",
+      "target": "name=cantidad",
+      "targets": [
+        ["name=cantidad", "name"],
+        ["css=input", "css:finder"],
+        ["xpath=//input[@name='cantidad']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "100"
+    }, {
+      "id": "4703fa05-8e85-406b-b30c-f9b302fa9a0a",
+      "comment": "",
+      "command": "click",
+      "target": "name=origen",
+      "targets": [
+        ["name=origen", "name"],
+        ["css=select:nth-child(2)", "css:finder"],
+        ["xpath=//select[@name='origen']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario']/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "28f289da-fd25-473e-8868-313fe8f3d00d",
+      "comment": "",
+      "command": "select",
+      "target": "name=origen",
+      "targets": [
+        ["name=origen", "name"],
+        ["css=select:nth-child(2)", "css:finder"],
+        ["xpath=//select[@name='origen']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario']/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": "peso mexicano (MXN)"
+    }, {
+      "id": "7f6b0e1d-210d-4807-9c70-2b7e62ef4f0f",
+      "comment": "",
+      "command": "click",
+      "target": "name=destino",
+      "targets": [
+        ["name=destino", "name"],
+        ["css=select:nth-child(1)", "css:finder"],
+        ["xpath=//select[@name='destino']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario']/div/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c730bf8d-fb7b-484d-aa44-dcd521d27e3f",
+      "comment": "",
+      "command": "select",
+      "target": "name=destino",
+      "targets": [
+        ["name=destino", "name"],
+        ["css=select:nth-child(1)", "css:finder"],
+        ["xpath=//select[@name='destino']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario']/div/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div/select", "xpath:position"]
+      ],
+      "value": "dólar estadounidense (USD)"
+    }, {
+      "id": "c25c62b7-8f5e-475c-9f11-7e807d5e5b6b",
+      "comment": "",
+      "command": "click",
+      "target": "css=button:nth-child(2)",
+      "targets": [
+        ["css=button:nth-child(2)", "css:finder"],
+        ["xpath=//form[@id='formulario']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Convertir')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "779a7abb-8c1d-4003-bef7-92bc30cdfaca",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2cd8062a-0f81-4619-a1e7-16514967566e",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(1) > button",
+      "targets": [
+        ["css=li:nth-child(1) > button", "css:finder"],
+        ["xpath=//ul[@id='lista']/li/button", "xpath:idRelative"],
+        ["xpath=//li/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Eliminar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [],
+  "urls": ["https://convertidor.42web.io/"],
+  "plugins": []
+}
